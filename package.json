@@ -1,0 +1,20 @@
+{
+  "name": "@agreal/guides-demo",
+  "version": "1.0.0",
+  "description": "",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack"
+  },
+  "keywords": [],
+  "author": "Agreal <qxq111@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "webpack": "^4.29.6"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.0"
+  }
+}
