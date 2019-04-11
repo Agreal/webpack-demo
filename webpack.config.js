@@ -2,6 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     mode: 'development',
@@ -41,7 +42,15 @@ module.exports = {
     },
     plugins: [
         new CleanWebpackPlugin(),
-        new HtmlWebpackPlugin(),
+        new HtmlWebpackPlugin({
+            template: 'public/index.html',
+            templateParameters: {
+                BASE_URL: ''
+            }
+        }),
+        new CopyPlugin([
+            { from: 'public/favicon.ico', to: '.' },
+        ]),
         new VueLoaderPlugin()
     ],
     devServer: {
