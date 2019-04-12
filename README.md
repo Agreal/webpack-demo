@@ -22,9 +22,10 @@ Lint
 [ ] eslint
 [ ] stylelint
 
-Other dotfiles
+formatting
 --
 [x] .editorconfig
+[ ] prettier
 
 Testing
 --
