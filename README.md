@@ -11,6 +11,7 @@ Basic
 
 In Production
 --
+[ ] extract vendor chunk
 [ ] webpack production
 [ ] evn configuration
 
