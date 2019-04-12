@@ -17,14 +17,14 @@ In Production
 
 Lint
 --
-[ ] commitlint
-[ ] githooks
+[x] commitlint
+[x] githooks
 [ ] eslint
 [ ] stylelint
 
 Other dotfiles
 --
-[ ] .editorconfig
+[x] .editorconfig
 
 Testing
 --
